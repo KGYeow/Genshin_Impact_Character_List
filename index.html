@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="stylesheet" href="assets/styles/css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+
+    <title>Genshin Impact Character List</title>
+    <style>
+        body
+        {
+            margin: 0;
+            background-image: url("assets/imgs/webpage_background.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Dropdown Structure -->
+    <u1 id="dropdown1" class="dropdown-content" style="top: 30px;">
+        <li style="text-align: center;"><a href="index.html">English</a></li>
+        <li style="text-align: center;"><a href="indexCh.html">Chinese</a></li>
+    </u1>
+    <!-- Nagivation Bar -->
+    <nav>
+        <div class="nav-wrapper"  style="background: black;">
+            <a href="#" class="brand-logo" style="padding-left: 20px;">
+                <img src="assets/imgs/genshin_logo.png" alt="Genshin Impact Logo" width="150">
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down" style="padding-right: 10px;">
+                <!-- Dropdown Trigger -->
+                <li><a class="dropdown-trigger" href="#" data-target="dropdown1">
+                        <i class="material-icons left">language</i>
+                        Languages
+                        <i class="material-icons right">arrow_drop_down</i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <p class="welcome valign-wrapper">Welcome, traveler! You can look at the characters of the Genshin Impact at here!</p>
+    <div class="maleTraveler">
+        <img src="assets/imgs/Character_Traveler_(Male)_Portrait.png" alt="Traveler (Male)" width="430";">
+    </div>
+    <div class="femaleTraveler">
+        <img src="assets/imgs/Character_Traveler_(Female)_Portrait.png" alt="Traveler (Female)" width="470">
+    </div>
+
+    <div class="container">
+        <ul class="collapsible">
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">face</i>
+                    Mondstadt Characters
+                    <span class="badge" data-badge-caption="characters" style="font-family: Arial;">18</span>
+                </div>
+                <div class="collapsible-body" style="background-image: url(/assets/imgs/Mondstadt.jpg);">
+                    <span>
+                        <div class="row">
+                            <!-- Modal Trigger -->
+                            <div class="col s12 m4 l3"><button data-target="modal1" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Jean</button></div>
+                            <div class="col s12 m4 l3"><button data-target="modal2" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Amber</button></div>
+                            <div class="col s12 m4 l3"><button data-target="modal3" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Lisa</button></div>
+                            <div class="col s12 m4 l3"><button data-target="modal4" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Kaeya</button></div>
+                            <div class="col s12 m4 l3"><button data-target="modal5" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Babara</button></div>
+                            <div class="col s12 m4 l3"><button data-target="modal6" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Diluc</button></div>
+                            <div class="col s12 m4 l3"><button data-target="modal7" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Razor</button></div>
+                            <div class="col s12 m4 l3"><button data-target="modal8" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Venti</button></div>
+                            <div class="col s12 m4 l3"><button data-target="modal9" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Klee</button></div>
+                            <div class="col s12 m4 l3"><button data-target="modal10" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Bennett</button></div>
+                            <div class="col s12 m4 l3"><button data-target="modal11" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Noelle</button></div>
+                            <div class="col s12 m4 l3"><button data-target="modal12" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Fischl</button></div>
+                            <div class="col s12 m4 l3"><button data-target="modal13" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Sucrose</button></div>
+                            <div class="col s12 m4 l3"><button data-target="modal14" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Mona</button></div>
+                            <div class="col s12 m4 l3"><button data-target="modal15" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Diona</button></div>
+                            <div class="col s12 m4 l3"><button data-target="modal16" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Albedo</button></div>
+                            <div class="col s12 m4 l3"><button data-target="modal17" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Rosaria</button></div>
+                            <div class="col s12 m4 l3"><button data-target="modal18" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Eula</button></div>
+                        </div>
+                    
+                        <!-- Modal Structure -->
+                        <div id="modal1" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Jean <img src="./assets/imgs/Element_Anemo.png" alt="Anemo" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Jean.png" alt="Jean" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        As the Acting Grand Master of the Knights, Jean has always been devoted to her duties and maintaining peace in Mondstadt.
+                                        She had taken precautions long before the onset of Stormterror's assault, and she will guard Mondstadt with her life as always.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <!-- Modal Trigger because of no character demo-->
+                                        <button data-target="noCharDemo" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</button>
+
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal2" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Amber <img src="./assets/imgs/Element_Pyro.png" alt="Pyro" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Amber.png" alt="Amber" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        A perky, straightforward girl, who is also the only Outrider of the Knights of Favonius.
+                                        Her amazing mastery of the glider has made her a three-time winner of the Gliding Champion in Mondstadt.
+                                        As a rising star within the Knights of Favonius, Amber is always ready for any challenging tasks.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <!-- Modal Trigger because of no character demo-->
+                                        <button data-target="noCharDemo" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</button>
+
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal3" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Lisa <img src="./assets/imgs/Element_Electro.png" alt="Electro" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Lisa.png" alt="Lisa" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        She is an intellectual witch who can never get enough naps. As the Librarian of the Knights of Favonius, Lisa is smart in that she always knows exactly what to do with whatever troubles her.
+                                        As much as she loves her sleep, she still manages to keep everything under control in a calm, composed manner.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <!-- Modal Trigger because of no character demo-->
+                                        <button data-target="noCharDemo" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</button>
+
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal4" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Kaeya <img src="./assets/imgs/Element_Cryo.png" alt="Cryo" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Kaeya.png" alt="Kaeya" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        In the Knights of Favonius, Kaeya is the most trusted aide for the Acting Grand Master Jean. You can always count on him to solve any intractable problems.
+                                        Everyone in Mondstadt loves Kaeya, but no one knows what secrets this witty, charming knight has...
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <a target="_blank" href="https://youtu.be/M2blSYJ6hrE" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</a>
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal5" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Babara <img src="./assets/imgs/Element_Hydro.png" alt="Hydro" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Babara.png" alt="Babara" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        The Deaconess of the Church of Favonius and a shining idol adored by all.
+                                        Although the concept of an idol is rather novel in a city of bards, the people of Mondstadt love Barbara nonetheless.
+                                        "I owe everything to the city's spirit of freedom." — Barbara, regarding her popularity.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <!-- Modal Trigger because of no character demo-->
+                                        <button data-target="noCharDemo" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</button>
+
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal6" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Diluc <img src="./assets/imgs/Element_Pyro.png" alt="Pyro" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Diluc.png" alt="Diluc" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        As the wealthiest gentleman in Mondstadt, the ever-dapper Diluc always presents himself as the epitome of perfection.
+                                        But behind the courteous visage burns a zealous soul that has sworn to protect Mondstadt at all costs, allowing him to mercilessly vanquish all who threaten his city.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <!-- Modal Trigger because of no character demo-->
+                                        <button data-target="noCharDemo" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</button>
+
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal7" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Razor <img src="./assets/imgs/Element_Electro.png" alt="Electro" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Razor.png" alt="Razor" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        Some say he is an orphan raised by wolves. Others say he is a wolf spirit in human form.
+                                        He is most at home in the wild, fighting with claw and thunder.
+                                        To this day the wolf boy can be found prowling the forest, where he and his wolf pack hunt to survive using nothing more than their animal instincts.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <!-- Modal Trigger because of no character demo-->
+                                        <button data-target="noCharDemo" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</button>
+
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal8" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Venti <img src="./assets/imgs/Element_Anemo.png" alt="Anemo" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Venti.png" alt="Venti" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        A bard that seems to have arrived on some unknown wind — sometimes sings songs as old as the hills, and other times recites poems fresh and new.
+                                        Likes apples and lively places, but is not a fan of cheese or anything sticky.
+                                        When using his Anemo power to control the wind, it often appears as feathers, as he's fond of that which appears light and breezy.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <a target="_blank" href="https://youtu.be/t6BZjmGpq40" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</a>
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal9" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Klee <img src="./assets/imgs/Element_Pyro.png" alt="Pyro" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Klee.png" alt="Klee" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        Knights of Favonius Spark Knight! Forever with a bang and a flash!
+                                        —And then disappearing from the stern gaze of Acting Grand Master Jean.
+                                        Sure, time in solitary confinement gives lots of time to think about new gunpowder formulas...
+                                        But it'd still be better to not be in solitary in the first place.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <a target="_blank" href="https://youtu.be/C_duDk5e8yU" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</a>
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal10" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Bennett <img src="./assets/imgs/Element_Pyro.png" alt="Pyro" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Bennett.png" alt="Bennett" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        One of the few young adventurers of the Mondstadt Adventurers' Guild, he is always plagued with inexplicable bad luck.
+                                        He is the only active member of his own adventure group, known as "Benny's Adventure Team," after all the other members decided to "take leave" following a series of unfortunate incidents. As a result, the team is currently on the verge of being dissolved.
+                                        Being unable to break the poor boy's heart, Katheryne of the Adventurers' Guild has kept "Benny's Adventure Team" on the books, whilst also hiding from him the fact that all the other members have long since officially left the team.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <!-- Modal Trigger because of no character demo-->
+                                        <button data-target="noCharDemo" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</button>
+
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal11" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Noelle <img src="./assets/imgs/Element_Geo.png" alt="Geo" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Noelle.png" alt="Noelle" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        Like most of Mondstadt's young people, Noelle always dreamed of being a knight of Favonius when she grew up.
+                                        She may not have what it takes to be a knight just yet, but she is learning. Working as a maid at the Knights' headquarters, she is constantly taking notes on what constitutes knightly speech, knightly conduct, and knightly customs.
+                                        She holds firm to her belief that one day she will join their ranks — she just needs to keep trying her hardest at everything she does.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <!-- Modal Trigger because of no character demo-->
+                                        <button data-target="noCharDemo" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</button>
+
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal12" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Fischl <img src="./assets/imgs/Element_Electro.png" alt="Electro" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Fischl.png" alt="Fischl" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        A mysterious girl who calls herself "Prinzessin der Verurteilung" and travels with a night raven named Oz.
+                                        Currently serves as an investigator in the Adventurers' Guild.
+                                        Through her unique abilities, eccentric character, and (while she would never admit it herself) hard work, Fischl has become a rising star among the Adventurers' Guild's investigators, earning the recognition of all.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <a target="_blank" href="https://youtu.be/3VtfVPCbNzk" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</a>
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal13" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Sucrose <img src="./assets/imgs/Element_Anemo.png" alt="Anemo" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Sucrose.png" alt="Sucrose" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        An alchemist with an insatiable curiosity towards the world and everything in it. Attached to the Knights of Favonius as an assistant to Albedo, her area of focus is "bio-alchemy."
+                                        She strives to enrich the world by transforming living things with the power of alchemy.
+                                        Granted, the products of her research sometimes prove to be more weird than wonderful — but on the whole, she has made monumental contributions to the field of bio-alchemy.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <!-- Modal Trigger because of no character demo-->
+                                        <button data-target="noCharDemo" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</button>
+
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal14" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Mona <img src="./assets/imgs/Element_Hydro.png" alt="Hydro" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Mona.png" alt="Mona" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        A mysterious young astrologer who proclaims herself to be "Astrologist Mona Megistus," and who possesses abilities to match the title. Erudite, but prideful.
+                                        Though she is often strapped for cash and lives a life of thrift, she is resolved to never use astrology for profit... It is this very resolution that has caused her to constantly fret about money.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <a target="_blank" href="https://youtu.be/QUioSVENXcI" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</a>
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal15" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Diona <img src="./assets/imgs/Element_Cryo.png" alt="Cryo" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Diona.png" alt="Diona" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        The incredibly popular bartender of the Cat's Tail tavern, rising star of Mondstadt's wine industry, and the greatest challenger to its traditional powerhouses.
+                                        A feisty feline young lady from Springvale, any drink mixed by Diona's hand tastes delicious beyond belief.
+                                        Yet given her extreme distaste for alcohol, is her talent a blessing or a curse?
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <!-- Modal Trigger because of no character demo-->
+                                        <button data-target="noCharDemo" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</button>
+
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal16" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Albedo <img src="./assets/imgs/Element_Geo.png" alt="Geo" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Albedo.png" alt="Albedo" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        Albedo — an alchemist based in Mondstadt, in the service of the Knights of Favonius.
+                                        "Genius," "Kreideprinz," or "Captain of the Investigation Team"... Such titles and honors are of no consequence to him when there is so much more research to conduct.
+                                        The pursuit of fortune and connections cannot hold a candle to his heart's desire — acquiring the limitless, obscure knowledge left behind by previous generations of scholars.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <a target="_blank" href="https://youtu.be/A3U51KyZLxE" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</a>
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal17" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Rosaria <img src="./assets/imgs/Element_Cryo.png" alt="Cryo" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Rosaria.png" alt="Rosaria" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        Rosaria, a sister in Mondstadt's Church of Favonius.
+                                        A sister of the church, though you wouldn't know it if it weren't for her attire. An unusual woman with sharp, piercing words and a cold manner.
+                                        Her movements are unpredictable. She often leaves without notifying anyone. She acts with some kind of purpose, but others don't seem to know exactly what she stands for...
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <a target="_blank" href="https://youtu.be/KJwOW1zS8UM" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</a>
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal18" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Eula <img src="./assets/imgs/Element_Cryo.png" alt="Cryo" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Eula.png" alt="Eula" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        A rebellious descendant of the old aristocracy who is always out on the battlefield.
+                                        As one born into the old aristocracy, carrying the bloodline of sinners, Eula has needed a unique approach to the world to navigate the towering walls of prejudice peacefully.
+                                        Of course, this did not prevent her from severing ties with her clan. As the outstanding Spindrift Knight, she hunts down Mondstadt's enemies in the wild to exact her unique "vengeance."
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <a target="_blank" href="https://youtu.be/Go7SeJ-yOL4" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</a>
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">face</i>
+                    Liyue Characters
+                    <span class="badge" data-badge-caption="characters" style="font-family: Arial;">14</span>
+                </div>
+                <div class="collapsible-body" style="background-image: url(/assets/imgs/Liyue.jpg)">
+                    <span>
+                        <div class="row">
+                            <!-- Modal Trigger -->
+                            <div class="col s12 m6 l3"><button data-target="modal19" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Xiao</button></div>
+                            <div class="col s12 m6 l3"><button data-target="modal20" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Beidou</button></div>
+                            <div class="col s12 m6 l3"><button data-target="modal21" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Ningguang</button></div>
+                            <div class="col s12 m6 l3"><button data-target="modal22" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Xiangling</button></div>
+                            <div class="col s12 m6 l3"><button data-target="modal23" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Xingqiu</button></div>
+                            <div class="col s12 m6 l3"><button data-target="modal24" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Chongyun</button></div>
+                            <div class="col s12 m6 l3"><button data-target="modal25" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Qiqi</button></div>
+                            <div class="col s12 m6 l3"><button data-target="modal26" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Keqing</button></div>
+                            <div class="col s12 m6 l3"><button data-target="modal27" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Tartaglia</button></div>
+                            <div class="col s12 m6 l3"><button data-target="modal28" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Zhongli</button></div>
+                            <div class="col s12 m6 l3"><button data-target="modal29" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Xinyan</button></div>
+                            <div class="col s12 m6 l3"><button data-target="modal30" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Ganyu</button></div>
+                            <div class="col s12 m6 l3"><button data-target="modal31" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Hu Tao</button></div>
+                            <div class="col s12 m6 l3"><button data-target="modal32" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Yanfei</button></div>
+                        </div>
+                    
+                        <!-- Modal Structure -->
+                        <div id="modal19" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Xiao <img src="./assets/imgs/Element_Anemo.png" alt="Anemo" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Xiao.png" alt="Xiao" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        One of the mighty and illuminated adepti guarding Liyue, also heralded as the "Vigilant Yaksha."
+                                        Despite his youthful appearance, tales of his exploits have been documented for millennia.
+                                        He is especially fond of Wangshu Inn's Almond Tofu.
+                                        This is because it tastes just like the sweet dreams he used to devour.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <a target="_blank" href="https://youtu.be/sjozpa9DsZU" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</a>
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal20" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Beidou <img src="./assets/imgs/Element_Electro.png" alt="Electro" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Beidou.png" alt="Beidou" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        Captain of the Crux, with quite the reputation in Liyue.
+                                        There are those who say she can split mountains and part the sea. Others say she draws lightning through her sword. Some say that even the mightiest of sea beasts are no match for her.
+                                        For those not from Liyue, it may sound like a hearty joke, but those that have sailed with her will say—
+                                        "No matter what sea beasts there may be, Beidou will be sure to split them all in two."
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <!-- Modal Trigger because of no character demo-->
+                                        <button data-target="noCharDemo" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</button>
+
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal21" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Ningguang <img src="./assets/imgs/Element_Geo.png" alt="Geo" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Ningguang.png" alt="Ningguang" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        Owner of the Jade Chamber in the skies above Liyue, there are stories abound about Ningguang, with her elegance and mysterious smile.
+                                        As the Tianquan of the Liyue Qixing, not only does she embody law and order, she also represents fortune and wit.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <!-- Modal Trigger because of no character demo-->
+                                        <button data-target="noCharDemo" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</button>
+
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal22" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Xiangling <img src="./assets/imgs/Element_Pyro.png" alt="Pyro" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Xiangling.png" alt="Xiangling" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        The Head Chef at the Wanmin Restaurant and also a waitress there, Xiangling is extremely passionate about cooking and excels at her signature hot and spicy dishes.
+                                        Though still young, Xiangling is a true master of the culinary arts with all the skills of a kitchen veteran. She enjoys a good reputation among the hearty eaters at Chihu Rock.
+                                        There's absolutely no need to be nervous if she wants you to sample her latest creation. It will not disappoint. Promise.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <a target="_blank" href="https://youtu.be/TvqGRUWm8qE" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</a>
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal23" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Xingqiu <img src="./assets/imgs/Element_Hydro.png" alt="Hydro" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Xingqiu.png" alt="Xingqiu" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        Second son of the Feiyun Commerce Guild, Xingqiu has had a reputation for being studious and polite ever since he was a young child.
+                                        But there is another side to the mild-mannered Xingqiu everyone knows. A daring, adventurous and much more mischievous side...
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <!-- Modal Trigger because of no character demo-->
+                                        <button data-target="noCharDemo" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</button>
+
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal24" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Chongyun <img src="./assets/imgs/Element_Cryo.png" alt="Cryo" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Chongyun.png" alt="Chongyun" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        An exorcist who roams the land with Liyue as his base of operations, evil spirits fleeing wherever he goes. As the heir to a clan of exorcists, he has always possessed abilities superior to most.
+                                        However, these abilities are not the result of training, but of an inborn trait — a pure-yang spirit.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <!-- Modal Trigger because of no character demo-->
+                                        <button data-target="noCharDemo" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</button>
+
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal25" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Qiqi <img src="./assets/imgs/Element_Cryo.png" alt="Cryo" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Qiqi.png" alt="Qiqi" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        An apprentice and herb gatherer at Bubu Pharmacy.
+                                        "Blessed" by the adepti with a body that cannot die, this petite zombie cannot do anything without first giving herself orders to do it.
+                                        Qiqi's memory is like a sieve. Out of necessity, she always carries around a notebook in which she writes anything important that she is sure to forget later.
+                                        But on her worst days, she even forgets to look at her notebook...
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <a target="_blank" href="https://youtu.be/_ndVJlqBYLY" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</a>
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal26" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Keqing <img src="./assets/imgs/Element_Electro.png" alt="Electro" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Keqing.png" alt="Keqing" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis' unilateral approach to policymaking in Liyue ⁠— but in truth, gods admire skeptics such as her quite a lot.
+                                        She firmly believes that humanity's future should be determined by humans themselves, and that they can even do better than the archons and adepti have done for them. In order to prove this, she works harder than anyone else.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <a target="_blank" href="https://youtu.be/rPLh5QAedUE" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</a>
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal27" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Tartaglia <img src="./assets/imgs/Element_Hydro.png" alt="Hydro" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Tartaglia.png" alt="Tartaglia" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        Meet Tartaglia — the cunning Snezhnayan whose unpredictable personality keeps people guessing his every move.
+                                        Don't be under any illusion as to what he might be thinking or what his intentions are. Just remember this: Behind that innocent, childlike exterior lies a finely honed instrument of war.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <a target="_blank" href="https://youtu.be/3f2-EANyrNM" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</a>
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal28" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Zhongli <img src="./assets/imgs/Element_Geo.png" alt="Geo" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Zhongli.png" alt="Zhongli" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        Wangsheng Funeral Parlor mysterious consultant. Handsome, elegant, and surpassingly learned.
+                                        Though no one knows where Zhongli is from, he is a master of courtesy and rules. From his seat at Wangsheng Funeral Parlor, he performs all manner of rituals.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <a target="_blank" href="https://youtu.be/4oBpaBEMBIM" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</a>
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal29" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Xinyan <img src="./assets/imgs/Element_Pyro.png" alt="Pyro" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Xinyan.png" alt="Xinyan" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        Rock 'n' roll is an avant-garde art in Liyue Harbor and Xinyan is the pioneer in this field.
+                                        She rebels against ossified prejudices, using her music and passionate singing to awaken dazed souls fatigued by worldly matters.
+                                        If you get the chance, do not miss out on her next performance!
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <a target="_blank" href="https://youtu.be/MXSgda3ySTg" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</a>
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal30" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Ganyu <img src="./assets/imgs/Element_Cryo.png" alt="Cryo" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Ganyu.png" alt="Ganyu" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        The secretary to the Liyue Qixing. The blood of both human and illuminated beast flows within her veins.
+                                        Graceful and quiet by nature, yet the gentle disposition of qilin sees not even the slightest conflict with even the most arduous of workloads.
+                                        After all, Ganyu firmly believes that all the work she does is in honor of her contract with Rex Lapis, seeking the well-being of all living things within Liyue.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <a target="_blank" href="https://youtu.be/FHRXP8ceeBU" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</a>
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal31" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Hu Tao <img src="./assets/imgs/Element_Pyro.png" alt="Pyro" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_HuTao.png" alt="Hu Tao" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        Hu Tao is the 77th Director of the Wangsheng Funeral Parlor, a person vital to managing Liyue's funerary affairs.
+                                        She does her utmost to flawlessly carry out a person's last rites and preserve the world's balance of yin and yang.
+                                        Aside from this, she is also a talented poet whose many "masterpieces" have passed around Liyue's populace by word of mouth.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <a target="_blank" href="https://youtu.be/qrH9vMZBwAk" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</a>
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal32" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Yanfei <img src="./assets/imgs/Element_Pyro.png" alt="Pyro" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Yanfei.png" alt="Yanfei" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        A half-illuminated beast and highly-skilled legal adviser.
+                                        She combines adherence to the legal codices and reasonable flexibility to find the perfect balance in her work.
+                                        She devotes herself to protecting the fairness of contracts in Liyue with her identity as a legal adviser and her unique experience and methods.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <a target="_blank" href="https://youtu.be/y43rmAQ-l_M" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</a>
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">face</i>
+                    Inazuma Characters
+                    <span class="badge" data-badge-caption="characters" style="font-family: Arial;">7</span>
+                </div>
+                <div class="collapsible-body" style="background-image: url(/assets/imgs/Inazuma.jpg)">
+                    <span>
+                        <div class="row">
+                            <!-- Modal Trigger -->
+                            <div class="col s12 m6 l3"><button data-target="modal33" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Kamisato Ayaka</button></div>
+                            <div class="col s12 m6 l3"><button data-target="modal34" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Kaedehara Kazuha</button></div>
+                            <div class="col s12 m6 l3"><button data-target="modal35" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Yoimiya</button></div>
+                            <div class="col s12 m6 l3"><button data-target="modal36" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Sayu</button></div>
+                            <div class="col s12 m6 l3"><button data-target="modal37" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Raiden Shogun</button></div>
+                            <div class="col s12 m6 l3"><button data-target="modal38" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Kujou Sara</button></div>
+                            <div class="col s12 m6 l3"><button data-target="modal39" class="waves-effect waves-teal btn modal-trigger" style="margin: 2px;">Sangonomiya Kokomi</button></div>
+                        </div>
+
+                        <!-- Modal Structure -->
+                        <div id="modal33" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Kamisato Ayaka <img src="./assets/imgs/Element_Cryo.png" alt="Cryo" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_KamisatoAyaka.png" alt="Kamisato Ayaka" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        Daughter of the Yashiro Commission's Kamisato Clan from Inazuma. Dignified and elegant, wise and determined.
+                                        Sincere and pleasant to others. Universally loved by the Inazuma people, she has earned the title of Shirasagi Himegimi.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <a target="_blank" href="https://youtu.be/5RCsr1Y8UZA" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</a>
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal34" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Kaedehara Kazuha <img src="./assets/imgs/Element_Anemo.png" alt="Anemo" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_KaedeharaKazuha.png" alt="Kaedehara Kazuha" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        A wandering samurai from Inazuma with a modest and gentle personality.
+                                        Beneath a youthful and carefree demeanor lies a heart that hides a great many burdens from the past. Seemingly easygoing, Kazuha has his own code of conduct.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <a target="_blank" href="https://youtu.be/zif0Lmhrivc" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</a>
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal35" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Yoimiya <img src="./assets/imgs/Element_Pyro.png" alt="Pyro" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Yoimiya.png" alt="Yoimiya" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        A talented pyrotechnician. The current owner of Naganohara Fireworks known as the "Queen of the Summer Festival."
+                                        A girl filled with fiery passion. The uncompromising childish innocence and the obsession with craftsmanship intertwine in her to create a spectacular blaze.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <a target="_blank" href="https://youtu.be/dn8etqEPtFg" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</a>
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal36" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Sayu <img src="./assets/imgs/Element_Anemo.png" alt="Anemo" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_Sayu.png" alt="Sayu" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        Sayu, Shuumatsuban's resident ninja, is obsessed with sleeping and growing taller.
+                                        She has mastered all kinds of ninjutsu to run away and hide in pursuit of opportunities to laze around and sleep.
+                                        Such an extraordinary skillset may have very unexpected uses.
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <a target="_blank" href="https://youtu.be/PXp8qKZeHeY" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</a>
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal37" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Raiden Shogun <img src="./assets/imgs/Element_Electro.png" alt="Electro" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_RaidenShogun.png" alt="Raiden Shogun" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        Coming soon！
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <!-- Modal Trigger because of no character demo-->
+                                        <button data-target="noCharDemo" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</button>
+
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal38" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Kujou Sara <img src="./assets/imgs/Element_Electro.png" alt="Electro" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_KujouSara.png" alt="Kujou Sara" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        Coming soon！
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <!-- Modal Trigger because of no character demo-->
+                                        <button data-target="noCharDemo" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</button>
+
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="modal39" class="modal">
+                            <div class="modal-content">
+                                <div class="modal-header z-depth-2">Sangonomiya Kokomi <img src="./assets/imgs/Element_Hydro.png" alt="Hydro" style="zoom: 40%;"></div>
+                                    <p><img class="splashArt" src="assets/imgs/splashArt_SangonomiyaKokomi.png" alt="Sangonomiya Kokomi" style="zoom: 29%;"></p>
+                                    <p class="charac_intro z-depth-2">
+                                        Coming soon！
+                                    </p>
+                                <div class="modal-footer">
+                                    <span>
+                                        <!-- Modal Trigger because of no character demo-->
+                                        <button data-target="noCharDemo" class="waves-effect waves-light btn modal-trigger z-depth-3""><i class="material-icons left">live_tv</i> Watch the character demo</button>
+
+                                        <a href="#!" class="modal-close waves-effect waves-green btn z-depth-3"><i class="material-icons left">arrow_back</i>Back</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </li>
+        </ul>
+
+        <div id="noCharDemo" class="modal">
+            <div class="modal-content center-align">
+                <i class="material-icons">mood_bad</i>
+                This character do not have character demo.
+            </div>
+        </div>
+
+    </div>
+
+    <ul class="info">
+        <li>
+            <i class="material-icons" style="zoom: 80%;">link</i><a target="_blank" href="https://genshin.mihoyo.com/" class="collection-item"> Genshin Impact Official Website</a>
+        </li>
+        <li>
+            <i class="material-icons" style="zoom: 80%;">link</i><a target="_blank" href="https://www.youtube.com/channel/UCiS882YPwZt1NfaM0gR0D9Q" class="collection-item"> Genshin Impact Official Youtube</a>
+        </li>
+        <li>
+            <i class="material-icons" style="zoom: 80%;">link</i><a target="_blank" href="https://www.hoyolab.com/genshin/" class="collection-item"> Genshin Impact Official Community</a>
+        </li>
+        <li>
+            <i class="material-icons" style="zoom: 80%;">link</i><a target="_blank" href="https://www.facebook.com/GenshinImpact/" class="collection-item"> Genshin Impact Official Facebook</a>
+        </li>
+        <li>
+            <i class="material-icons" style="zoom: 80%;">link</i><a target="_blank" href="https://twitter.com/GenshinImpact" class="collection-item"> Genshin Impact Official Twitter</a>
+        </li>
+        <li>
+            <i class="material-icons" style="zoom: 80%;">link</i><a target="_blank" href="https://www.instagram.com/genshinimpact/" class="collection-item"> Genshin Impact Official Instagram</a>
+        </li>
+    </ul>
+
+    <!--Initialization for dropdown-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function()
+        {
+            var elems = document.querySelectorAll('.dropdown-trigger');
+            var instances = M.Dropdown.init(elems);
+        });
+    </script>
+
+    <!--Initialization for collapsible-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function()
+        {
+            var elems = document.querySelectorAll('.collapsible');
+            var instances = M.Collapsible.init(elems);
+        });
+    </script>
+
+    <!--Initialization for modal-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function()
+        {
+            var elems = document.querySelectorAll('.modal');
+            var instances = M.Modal.init(elems);
+         });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+.welcome
+{
+    background: rgba(0, 0, 0, 0.855);
+    color: white;
+    font-size: xx-large;
+    font-family: Georgia;
+    text-align: justify;
+    margin-top: 300px;
+    position: absolute;
+    z-index: 1;
+    padding: 50px;
+    padding-left: 800px;
+    height: 185px;
+}
+
+.maleTraveler
+{
+    margin-top: 30px;
+    margin-right: 35px;
+    float: right;
+}
+
+.femaleTraveler
+{
+    margin-top: 60px;
+    position: absolute;
+    right: 100px;
+}
+
+.collapsible
+{
+    top: 130px;
+    left: 40px;
+    position: absolute;
+    z-index: 3;
+    width: 700px;
+}
+
+.collapsible-header
+{   
+    font-size: large;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+.collapsible-body
+{
+    background-size: cover;
+    background-position: center;
+}
+
+.splashArt
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.charac_intro
+{
+    font-weight: 480;
+    text-align: justify;
+    background: #f5f5f5;
+    padding: 10px;
+}
+
+.modal
+{
+    width: 60%;
+    height: 100%;
+}
+
+#noCharDemo
+{
+    margin-top: 15%;
+    text-align: center;
+    width: 30%;
+    height: fit-content;
+}
+
+.modal-header
+{
+    background: snow;
+    border: white 2px solid;
+    margin: -10px;
+    color: black;
+    font-size: xx-large;
+    font-family: Georgia;
+    padding-left: 20px;
+}
+
+.waves-effect.waves-teal.btn.modal-trigger
+{
+    width: 150px;
+    font-family: Arial;
+    font-weight: 550;
+    color: black;
+    padding: 0px;
+    line-height: 15px;
+    background-color: rgba(255, 255, 255, 0.855);
+}
+
+.info
+{
+    top: 372px;
+    left: 55px;
+    position: absolute;
+    z-index: 2;
+    font-family: Arial;
+    font-size: 10px;
+    color: white;
+    width: 400px;
+}
+
+.collection-item
+{
+    height: 30px;
+}
